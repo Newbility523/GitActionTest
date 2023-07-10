@@ -1,3 +1,5 @@
+[![GitHub Actions Demo](https://github.com/Newbility523/GitActionTest/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/Newbility523/GitActionTest/actions/workflows/github-actions-demo.yml)
+
 # actiontest README
 
 This is the README for your extension "actiontest". After writing up a brief description, we recommend including the following sections.
