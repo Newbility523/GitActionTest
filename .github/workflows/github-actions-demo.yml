@@ -22,3 +22,11 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+      - run: |
+          git config --global user.name 'newbility523'
+          git config --global user.email 'newbility523@gmail.com'
+          git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY
+          git add ./helloword.txt
+          git commit -m "auto push" ./helloword.txt
+          git push
+
